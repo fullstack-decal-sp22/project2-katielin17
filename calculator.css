@@ -1,4 +1,4 @@
-.total-size {
+body {
   padding: 0;
   margin: 0;
 }
@@ -16,8 +16,8 @@
 }
 .calc {
   width: 400px;
-  height: 500px;
-  background-color: black;
+  height: 597px;
+  
 }
 #zero-button {
   width: 75%;
@@ -28,8 +28,11 @@
 }
 
 .buttons {
+  background-color: #d8d9db;
   width: 100px;
   font-size: 40px;
+  border-width: thin;
+  border-color: black;
 }
 
 .calc-rows {
@@ -37,10 +40,15 @@
   flex-wrap: wrap-reverse;
   height: 85%;
 }
+
 #last-buttons {
   background-color: #df974c;
   color: white;
 }
 #last-buttons:hover {
   background-color: #dfb07e;
+}
+
+.buttons:hover {
+  background-color: #ebebeb;
 }
